@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.text {
+    border-radius: 20px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 600px;
+    height: 200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+nav {
+
+    /* margin:auto; */
+    /* text-align: center; */
+    width: 100%;
+    font-family: arial;
+    background: #E6E6E6;
+    height: 97px;
+    justify-content: space-between;
+    }
+    
+nav ul {
+    padding: 0 50px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    height: 110px;
+    }
+       
+    nav ul li{
+    float:left;
+    margin-right: 90px;
+    padding-top: 10px;
+    }
+       
+    nav ul li:hover{
+    background:#6b6667;
+    /* padding-top: 15px; */
+    border-radius: 25%;
+    transform: scale(1.1);
+    transition: 2s;
+    }
+       
+    nav ul li:hover a{
+    color:#000;
+    }
+       
+    nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #000000;
+    text-decoration: none;
+    }
+    
+
+h2 {
+    /* border-radius: 20px 20px 0 0; */
+    text-align: center;
+    background-color: #beaeae;
+}
+
+
+/* header img {
+    width: 100%;
+    height: 200px;
+} */
+
+.container {
+    background-color: blue;
+}
+
+.gambar1 p,
+.gambar2 p,
+.gambar3 p 
+.gambar4 p
+.gambar5 p
+.gambar6 p{
+    padding: 10px;
+}
+
+.gambar1 {
+    width: 260px;
+    height: 370px;
+    border: 5px solid black;
+    float: left;
+    margin: 20px;
+    background-color: #fff;
+}
+
+
+.gambar1 img {
+    width: 260px;
+    height: 205px;
+}
+
+.gambar2 {
+    width: 260px;
+    height: 370px;
+    border: 5px solid rgb(0, 0, 0);
+    float: left;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.gambar2 img {
+    width: 260px;
+    height: 205px;
+}
+
+.gambar3 {
+    width: 260px;
+    height: 370px;
+    border: 5px solid rgb(0, 0, 0);
+    float: left;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.gambar3 img {
+    width: 260px;
+    height: 205px;
+
+}
+
+.gambar4 {
+    width: 260px;
+    height: 370px;
+    border: 5px solid rgb(0, 0, 0);
+    float: left;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.gambar4 img {
+    width: 260px;
+    height: 205px;
+}
+
+.gambar5 {
+    width: 260px;
+    height: 370px;
+    border: 5px solid rgb(0, 0, 0);
+    float: left;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.gambar5 img {
+    width: 260px;
+    height: 205px;
+}
+
+.gambar6 {
+    width: 260px;
+    height: 370px;
+    border: 5px solid rgb(0, 0, 0);
+    float: left;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.gambar6 img {
+    width: 260px;
+    height: 205px;  
+}
+

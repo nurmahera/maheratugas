@@ -1,0 +1,252 @@
+  * {
+      margin:0; 
+      padding:0;
+      }
+
+    body {
+        overflow-x: hidden;
+    }
+
+/* header {
+/* background: url("../final.project/aset/awal.jpg") no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh; 
+} */
+    
+nav {
+
+/* margin:auto; */
+/* text-align: center; */
+width: 100%;
+font-family: arial;
+background: #E6E6E6;
+height: 85px;
+justify-content: space-between;
+}
+
+
+.nm {
+    position: absolute;
+    /* top: 15pc;
+    left: 2pc; */
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    background: url("../final.project/aset/awal.jpg") no-repeat;
+    /* background-size: cover; */
+    width: 100%;
+    height: 100vh;
+}
+.gmbar1{
+  /* text-align: center; */
+  top: 0;
+
+}
+.nm p{
+  text-align: left;
+  padding-top: 50px;
+  /* margin-left: 90px; */
+}
+       
+nav ul {
+padding: 0 50px;
+list-style: none;
+position: relative;
+display: inline-table;
+width: 100%;
+height: 110px;
+}
+   
+nav ul li{
+float:left;
+margin-right: 90px;
+padding-top: 10px;
+}
+   
+nav ul li:hover{
+background:#6b6667;
+/* padding-top: 15px; */
+border-radius: 30%;
+transform: scale(1.1);
+transition: 2s;
+}
+   
+nav ul li:hover a{
+color:#000;
+}
+   
+nav ul li a{
+display: block;
+padding: 25px;
+color: #000000;
+text-decoration: none;
+}
+
+/* div.gambar { 
+    height: 356px; 
+    width: 700px; 
+    margin: 2rem auto 0;
+    position: relative; 
+  }
+  div.gambar img { 
+    position: absolute; 
+    left: 200px; 
+    width: 300px; 
+    height: 200px; 
+    border: 12px solid #ffe; 
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.2); 
+    transform-origin: center 400px; 
+    transition: all .6s linear; 
+  }
+  div.gambar img:first-child { 
+    transform: rotate(5deg);  
+  }
+  div.gambar img:last-child { 
+    transform: rotate(-5deg); 
+  }
+  div.gambar:hover img:first-child { 
+    transform: rotate(25deg); 
+  }
+  div.gambar:hover img:last-child { 
+    transform: rotate(-25deg);  
+  } */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    border-color: green;
+  }
+
+  .container {
+    border-color: green;
+    padding: 100px 0 0 0;
+  }
+
+  .content-slide {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  .imgslide {
+    display: none;
+  }
+
+  .img {
+    vertical-align: middle;
+    width: 100%;
+    height: 400px;
+  }
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: gray;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .pre:hover,
+  .next:hover {
+    background-color: rgba(225, 225, 225, 0);
+    color: black;
+  }
+
+  .text {
+    color: #fafafa;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-slide .numberslide {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* responsive */
+
+  @media screen and (max-width: 800px) {
+
+      .content-slide {
+        padding: 8px 50px 12px 50px;
+      }
+
+      .next {
+        right: 50px;
+        border-radius: 3px 0 0 3px;
+      }
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .4;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .container .page {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .page .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rebeccapurple;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+  }
+
+  .page .active,
+  .page .dot:hover {
+    background-color: #E6E6E6;
+  }
+
+
